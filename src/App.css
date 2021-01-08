@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body{
+  padding-top: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  padding-Top: 30px;
+}
+
+.search_field{
+  width: 80%;
+  margin-top: 30px;
+  height: 100%;
+  background-color: rgb(67, 197, 214);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search_icon{
+  cursor: pointer;
+}
+
+.box{
+  height: 70px;
 }

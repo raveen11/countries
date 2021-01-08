@@ -1,0 +1,46 @@
+.pagination{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:600px){
+    .pagination{
+        overflow-x: scroll;
+    }
+}
+
+
+/* .navs{
+    
+    margin-left: auto;
+}
+.pagination{
+    display: flex;
+}
+
+ul#pagination {
+	min-width: 696px;
+	list-style: none;
+    padding-top: 20px;
+    display: flex;
+	}
+ul#pagination li {
+        margin: 2px;
+        background-color: rgb(187, 182, 179);
+        padding: 2px;
+        border: 1px solid black;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    ul#pagination li a{
+        font-size: 13px;
+    } */
+
+
+
+
